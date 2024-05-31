@@ -227,6 +227,7 @@
       </svg>
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
+      <app-counter-button [count]="count" (countChange)="onCountChange($event)"></app-counter-button>
     </div>
   </div>
 </main>
